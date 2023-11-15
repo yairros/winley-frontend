@@ -1,0 +1,68 @@
+.wine-page-card-container {
+    padding: 20px 10px;
+}
+
+.wine-page-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    width: 475px;
+    height: fit-content;
+    background-image: linear-gradient(
+        92.88deg,
+        #455eb5 9.16%,
+        #5643cc 43.89%,
+        #673fd7 64.72%
+    );
+    opacity: 0.6;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.wine-card-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.wine-card-img {
+    height: 150px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.wine-card-top-txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.wine-card-txt {
+    padding: 2%;
+    margin: 2%;
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+#btn-buy-now {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    background-color: #fcfcfc;
+}
+
+#btn-buy-now:hover {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    background-color: #3e08d4;
+    color: white;
+}

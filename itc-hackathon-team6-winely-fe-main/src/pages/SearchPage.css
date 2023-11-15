@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+#search-page-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../components/Images/dan-meyers-0AgtPoAARtE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.favorite-country-name {
+    color: rgb(94, 0, 145);
+}
